@@ -1,4 +1,4 @@
-## Ishanvi Upare's Personal Website
+## Ishanvi Upare's Personal Website 🌸
 
 This is my personal website; introducing myself, what I do, and how to contact me.
 
