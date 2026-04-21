@@ -15,7 +15,7 @@ const about = () => {
             {/*horizontal columns, start at left edge of flex container with vertical gap 10*/}
             <div className = "flex flex-col md:items-start gap-10">
               <h1 className = "text-6xl font-serif text-[#5a4a46]"> About... </h1>
-              <img src = "profile.webp" className = "w-100"/>
+              <img src = "profile.webp" className = "w-100 shadow-sm"/>
             </div>
 
             {/*right side (description)*/}

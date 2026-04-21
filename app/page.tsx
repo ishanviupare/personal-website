@@ -13,7 +13,7 @@ export default function Home() {
               Ishanvi Upare 
             </h1>
 
-            <img src = "_3.jpg" className = "w-155 h-155"/>
+            <img src = "home.gif" className = "w-155 h-155"/>
           </div>
 
       </div>
