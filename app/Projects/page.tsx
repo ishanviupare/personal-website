@@ -8,7 +8,6 @@ export default function Home() {
   console.log(posts);
 
   return (
-    <div className="mr-[25%]">
       <div className="min-h-screen p-20 bg-[#c6b0ad] font-serif text-[#5a4a46]">
           
         <h1 className = "text-6xl mb-16"> Projects... </h1>
@@ -20,6 +19,5 @@ export default function Home() {
         <BlogIndex posts={posts} />
 
       </div>
-    </div>
   );
 }

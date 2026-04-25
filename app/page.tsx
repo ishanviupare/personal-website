@@ -4,7 +4,6 @@ import Link from "next/link";
 export default function Home() {
   return (
 
-    <div className="mr-[25%]">
       <div className = "h-screen flex items-center justify-center bg-[#A5AE9E]">
 
           <div className = "flex flex-col items-center gap-11">
@@ -17,6 +16,5 @@ export default function Home() {
           </div>
 
       </div>
-    </div>
   );
 };
