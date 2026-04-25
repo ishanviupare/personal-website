@@ -9,14 +9,24 @@ tags:
   - links
 ---
 
-## Adding images
-
-The syntax shown below assumes a file called *logo.png* will be rendered by a Next.js app with the file in question stored in the `public/images` folder.
-
-![example image](/public/images/logo.png)
+<iframe src="http://www.abjadesigns.com" className= "mx-auto w-full aspect-[3/4] md:aspect-[3/2] xl:aspect-video"></iframe>
 
 ## Links
 
 Links are also structured using a combination of square brackets and parentheses. The square brackets hold the text that will appear in the document; the path to the linked resource goes between the parentheses.
 
-[Link to Wikipedia](https://www.wikipedia.org/wiki/Main_Page)
+adding more stuff
+
+and more
+
+and more
+
+and more
+
+and more
+
+and moreeeee
+
+and moremroermeormeo
+
+Follow us on [<u>Instagram</u>](https://www.instagram.com/abja.designs/) or [<u>Facebook</u>](https://www.facebook.com/abja.designs), or email us at [<u>abjadesigns.art@gmail.com</u>](mailto:abjadesigns.art@gmail.com)
