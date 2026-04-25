@@ -5,12 +5,12 @@ export default function ResponsiveIFrame({ className = "", ...props }){
     const src = props.src || ""
     if (src.includes("youtube") || src.includes("youtu.be")) {
         return (
-        <iframe {...props} className={`${className}`}></iframe>
+        <iframe {...props} className={`not-prose ${className}`}></iframe>
         )
     }
     return (
         <div
-            className=""
+            className="not-prose"
             onPointerEnter={() => {
                 document.body.style.overflow = 'hidden'
             }}
