@@ -5,7 +5,7 @@ export default function ResponsiveIFrame({ className = "", ...props }){
     const src = props.src || ""
     if (src.includes("youtube") || src.includes("youtu.be")) {
         return (
-        <iframe {...props} className={`not-prose ${className}`}></iframe>
+        <iframe {...props} className={`not-prose mx-auto aspect-[3/2] max-h-100 ${className}`}></iframe>
         )
     }
     return (
