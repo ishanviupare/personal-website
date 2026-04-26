@@ -5,6 +5,8 @@ import { iframe } from 'framer-motion/client'
 import ResponsiveIFrame from "@/components/ResponsiveIFrame"
 import { formatTime } from "@/helpers/time.js"
 import rehypeHighlight from "rehype-highlight"
+import rehypeSlug from "rehype-slug"
+
 
 function BlogPage({ content, data }) {
   return (
@@ -29,7 +31,7 @@ function BlogPage({ content, data }) {
           prose-img:max-h-[500] prose-img:mx-auto
           prose-ul:list-none`}>
 
-          <ReactMarkdown rehypePlugins={[rehypeRaw, rehypeHighlight]}
+          <ReactMarkdown rehypePlugins={[rehypeRaw, rehypeHighlight, rehypeSlug]}
             components={{
               iframe: ResponsiveIFrame
             }}
