@@ -23,9 +23,9 @@ export function formatTime({ start, end }) {
     parts.push(`${months}mo${months > 1 ? "s" : ""}`)
   }
 
-  //if recent project
+  //if short project
   if (parts.length === 0) {
-    parts.push("Just now")
+    parts.push("less than 1mo")
   }
 
   let result = `For ${parts.join(" ")}`

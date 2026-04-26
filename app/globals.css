@@ -1,8 +1,7 @@
 @import "tailwindcss";
 @custom-variant hover (&:hover);
 @plugin "@tailwindcss/typography";
-
-
+@import "highlight.js/styles/atom-one-dark.css";
 
 :root {
   --background: #ffffff;

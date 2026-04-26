@@ -1,7 +1,7 @@
 ---
 title: Musical Highlights
 subtitle: A collection of moments from my musical journey.
-start: 2018-06-22T11:00:00Z
+start: 2018-06-22T00:00:00-06:00
 image: "madz_2.png"
 tags:
   - markdown
@@ -9,7 +9,6 @@ tags:
   - links
 ---
 
-##
 This is only the surface of my musical journey. I have a [playlist of 100+ performances](https://youtube.com/playlist?list=PLJNdKLxIXnM_rl_dwCtN50Q9NddrYg125&si=WqffkrMk2wozbtg_)!
 
 ## Star Spangled Banner Soloist at Graduation

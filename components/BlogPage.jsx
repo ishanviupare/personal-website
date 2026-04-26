@@ -4,11 +4,12 @@ import Link from 'next/link'
 import { iframe } from 'framer-motion/client'
 import ResponsiveIFrame from "@/components/ResponsiveIFrame"
 import { formatTime } from "@/helpers/time.js"
+import rehypeHighlight from "rehype-highlight"
 
 function BlogPage({ content, data }) {
   return (
     <>
-      <div className="p-20 bg-[#c6b0ad] font-serif text-[#5a4a46] text-xl">
+      <div className="h-full p-20 bg-[#c6b0ad] font-serif text-[#5a4a46] text-xl">
         
         <div className= "mx-auto max-w-4xl p-5 mb-12 bg-[#5a4a46] text-[#c6b0ad] rounded-xl shadow-xl">
           <h1 className = "text-6xl mb-3">{data.title}</h1>
@@ -21,9 +22,13 @@ function BlogPage({ content, data }) {
           max-w-4xl mx-auto
           font-serif text-[#5a4a46] 
           prose-p:leading-8
-          prose-headings:text-[#5a4a46] prose-headings:mb-2`}>
+          prose-headings:text-[#5a4a46] prose-headings:mb-2
+          prose-strong:text-[#5a4a46] prose-a:text-[#5a4a46]
+          prose-code:text-[#4f7507]
+          prose-pre:bg-transparent
+          prose-img:max-h-[500] prose-img:mx-auto`}>
 
-          <ReactMarkdown rehypePlugins={[rehypeRaw]}
+          <ReactMarkdown rehypePlugins={[rehypeRaw, rehypeHighlight]}
             components={{
               iframe: ResponsiveIFrame
             }}
