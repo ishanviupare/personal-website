@@ -16,7 +16,7 @@ const contact = () => {
             <a href = "mailto:ishanviupare@gmail.com">
               <img src = "/mail.png" className = "w-25"/>
             </a>
-            <a href = "https://www.linkedin.com/in/ishanvi-upare-091910344/" target = "_blank">
+            <a href = "https://www.linkedin.com/in/ishanviupare/" target = "_blank">
               <img src = "/Linkedin.png" className = "w-25"/>
             </a>
             <a href = "https://github.com/ishanviupare" target = "_blank">
