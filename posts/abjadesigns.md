@@ -6,7 +6,10 @@ end: 2023-09-01T00:00:00-06:00
 image: "abja.png"
 ---
 
-<iframe src="http://www.abjadesigns.com" className= "w-full aspect-[3/4] md:aspect-[3/2] xl:aspect-video"></iframe>
+<!---<iframe src="https://www.abjadesigns.com" className= "w-full aspect-[3/4] md:aspect-[3/2] xl:aspect-video"></iframe>--->
 
+<a href="http://www.abjadesigns.com" target="_blank">
+  <img src="/abjapreview.png" className="rounded-lg shadow-lg hover:opacity-90 transition" />
+</a>
 
 Follow us on [Instagram](https://www.instagram.com/abja.designs/) or [Facebook](https://www.facebook.com/abja.designs), or email us at [abjadesigns.art@gmail.com ](mailto:abjadesigns.art@gmail.com)!
